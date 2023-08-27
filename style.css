@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+.btn1{
+    border-radius: 10px;
+    background: var(--linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    padding: 12px 26px;
+    border: none;
+    color: white;
+}
+.product-item{
+    width: calc(100%/4 - 10px);
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%);
+}
+.client-area{
+    border-radius: 10px;
+    background: var(--linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    padding: 40px;
+    color: white;
+}
+footer{
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+}
+footer ul li{
+    list-style-type: none;
+}
+footer ul li:first-child{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.text-form{
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+}
+.icon{
+    margin: 15px 8px;
+}
